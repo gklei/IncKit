@@ -115,7 +115,7 @@ public extension UIViewController {
 	}
 	
 	@objc private func ik_backButtonPressed() {
-		navigationController?.popViewController(animated: true)
+		let _ = navigationController?.popViewController(animated: true)
 	}
 	
 	// MARK: - Navigation Bar

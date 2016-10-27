@@ -12,7 +12,6 @@
 		9D704654BF33F920BCDE52C17DAE91DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		B0F8343FBC5975EB087DFC4C48415B65 /* Pods-IncKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F2519CE7F98615E2ECD1DD5857FFEC /* Pods-IncKit_Example-dummy.m */; };
 		BEC9F14FE6C32F1EAB6DD7D5289B8A87 /* Pods-IncKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E15BEFD804158285A7E7D6932028E3A5 /* Pods-IncKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEFB73721DC1B15F00CC9028 /* UIAlertController+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB73711DC1B15F00CC9028 /* UIAlertController+IncKit.swift */; };
 		CEFB73741DC1B1F300CC9028 /* String+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB73731DC1B1F300CC9028 /* String+IncKit.swift */; };
 		CEFB73761DC1B2BC00CC9028 /* UIColor+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB73751DC1B2BC00CC9028 /* UIColor+IncKit.swift */; };
 		CEFB73781DC1B38500CC9028 /* UIImage+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB73771DC1B38500CC9028 /* UIImage+IncKit.swift */; };
@@ -21,6 +20,7 @@
 		CEFB737E1DC1BBC900CC9028 /* UIViewController+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB737D1DC1BBC900CC9028 /* UIViewController+IncKit.swift */; };
 		CEFB73801DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB737F1DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift */; };
 		CEFB73821DC1BC9E00CC9028 /* UIView+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB73811DC1BC9E00CC9028 /* UIView+IncKit.swift */; };
+		CEFB73841DC1C7B900CC9028 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB73831DC1C7B900CC9028 /* UIAlertController+Extensions.swift */; };
 		E28866A0D31BBE7B10C560FC16243428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		EABD53A96F7697D15D3B6D1749B28E80 /* IncKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795996D72836C9B68D388FE54798D4AC /* IncKit-dummy.m */; };
 		F044CEDD41F88C5333D4BBB7521A4411 /* IncKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 865C9E08EBDF693CE9315BBDCC892357 /* IncKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -66,7 +66,6 @@
 		C2F2519CE7F98615E2ECD1DD5857FFEC /* Pods-IncKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IncKit_Example-dummy.m"; sourceTree = "<group>"; };
 		C4C794F4D24B393C71AED9242AB3680C /* Pods-IncKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IncKit_Tests.modulemap"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CEFB73711DC1B15F00CC9028 /* UIAlertController+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIAlertController+IncKit.swift"; path = "Classes/UIAlertController+IncKit.swift"; sourceTree = "<group>"; };
 		CEFB73731DC1B1F300CC9028 /* String+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+IncKit.swift"; path = "Extensions/String+IncKit.swift"; sourceTree = "<group>"; };
 		CEFB73751DC1B2BC00CC9028 /* UIColor+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+IncKit.swift"; path = "Extensions/UIColor+IncKit.swift"; sourceTree = "<group>"; };
 		CEFB73771DC1B38500CC9028 /* UIImage+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+IncKit.swift"; path = "Extensions/UIImage+IncKit.swift"; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		CEFB737D1DC1BBC900CC9028 /* UIViewController+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+IncKit.swift"; path = "Extensions/UIViewController+IncKit.swift"; sourceTree = "<group>"; };
 		CEFB737F1DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+IncKit.swift"; path = "Extensions/UIBarButtonItem+IncKit.swift"; sourceTree = "<group>"; };
 		CEFB73811DC1BC9E00CC9028 /* UIView+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+IncKit.swift"; path = "Extensions/UIView+IncKit.swift"; sourceTree = "<group>"; };
+		CEFB73831DC1C7B900CC9028 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Extensions.swift"; path = "Extensions/UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
 		E15BEFD804158285A7E7D6932028E3A5 /* Pods-IncKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IncKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		EC4134C3BA8EFFCE10F0C70152318F91 /* Pods_IncKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IncKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA38CE34C16C402E5EF5E919FFB65A5A /* Pods-IncKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IncKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -241,15 +241,15 @@
 		CE8FFE141DC1A64500A7C563 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				CEFB73811DC1BC9E00CC9028 /* UIView+IncKit.swift */,
-				CEFB737F1DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift */,
-				CEFB737D1DC1BBC900CC9028 /* UIViewController+IncKit.swift */,
-				CEFB737B1DC1BB2100CC9028 /* UINavigationBar+IncKit.swift */,
-				CEFB73791DC1BA8800CC9028 /* UILabel+IncKit.swift */,
-				CEFB73771DC1B38500CC9028 /* UIImage+IncKit.swift */,
-				CEFB73751DC1B2BC00CC9028 /* UIColor+IncKit.swift */,
 				CEFB73731DC1B1F300CC9028 /* String+IncKit.swift */,
-				CEFB73711DC1B15F00CC9028 /* UIAlertController+IncKit.swift */,
+				CEFB73831DC1C7B900CC9028 /* UIAlertController+Extensions.swift */,
+				CEFB737F1DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift */,
+				CEFB73751DC1B2BC00CC9028 /* UIColor+IncKit.swift */,
+				CEFB73771DC1B38500CC9028 /* UIImage+IncKit.swift */,
+				CEFB73791DC1BA8800CC9028 /* UILabel+IncKit.swift */,
+				CEFB737B1DC1BB2100CC9028 /* UINavigationBar+IncKit.swift */,
+				CEFB73811DC1BC9E00CC9028 /* UIView+IncKit.swift */,
+				CEFB737D1DC1BBC900CC9028 /* UIViewController+IncKit.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -393,11 +393,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFB73841DC1C7B900CC9028 /* UIAlertController+Extensions.swift in Sources */,
 				CEFB73801DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift in Sources */,
 				CEFB737C1DC1BB2100CC9028 /* UINavigationBar+IncKit.swift in Sources */,
 				CEFB737A1DC1BA8800CC9028 /* UILabel+IncKit.swift in Sources */,
 				CEFB737E1DC1BBC900CC9028 /* UIViewController+IncKit.swift in Sources */,
-				CEFB73721DC1B15F00CC9028 /* UIAlertController+IncKit.swift in Sources */,
 				CEFB73741DC1B1F300CC9028 /* String+IncKit.swift in Sources */,
 				CEFB73821DC1BC9E00CC9028 /* UIView+IncKit.swift in Sources */,
 				CEFB73781DC1B38500CC9028 /* UIImage+IncKit.swift in Sources */,

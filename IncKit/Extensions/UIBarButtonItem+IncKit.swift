@@ -9,7 +9,7 @@
 import UIKit
 
 public extension UIBarButtonItem {
-	public static func back(target target: AnyObject? = nil, action: Selector? = nil) -> UIBarButtonItem {
+	public static func back(target: AnyObject? = nil, action: Selector? = nil) -> UIBarButtonItem {
 		let overriddenTarget = action != nil ? target : nil
 		let overriddenAction = action ?? #selector(UIBarButtonItem.incKit_doNothing)
 		return UIBarButtonItem(title: "Back", style: .plain, target: overriddenTarget, action: overriddenAction)
@@ -19,7 +19,7 @@ public extension UIBarButtonItem {
 		return UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 	}
 	
-	public func update(color color: UIColor) {
+	public func update(color: UIColor) {
 		tintColor = color
 		if var attributes = titleTextAttributes(for: .normal) {
 			attributes[NSForegroundColorAttributeName] = color
