@@ -1,0 +1,6 @@
+framework module IncKit {
+  umbrella header "IncKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

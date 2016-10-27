@@ -7,18 +7,21 @@
 //
 
 import UIKit
+import IncKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+   
+   override func viewDidAppear(_ animated: Bool) {
+      super.viewDidAppear(animated)
+      
+      let alert = UIAlertController.accessDeniedAlert(reason: .photoLibrary)
+      present(alert, animated: true, completion: nil)
+      
+      let color = UIColor(hexString: "#34dcf3")
+      let color2 = UIColor(hexString: "523f2c")
+      if let image = UIImage(gradientColors: [color, color2], size: view.bounds.size) {
+         view.backgroundColor = UIColor(patternImage: image)
+      }
+   }
 }
 

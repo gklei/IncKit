@@ -1,0 +1,16 @@
+PODS:
+  - IncKit (0.1.0)
+
+DEPENDENCIES:
+  - IncKit (from `../`)
+
+EXTERNAL SOURCES:
+  IncKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IncKit: 6c9677d14b7b21a6b348bd31b3e56e2ca2fc7513
+
+PODFILE CHECKSUM: a3f20cee2780e76563a1112ba16f98faf2a76a7d
+
+COCOAPODS: 1.1.1

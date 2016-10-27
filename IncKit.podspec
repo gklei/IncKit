@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IncKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IncKit.'
+  s.summary          = 'A collection of utilities meant to be used for an iOS application.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+IncKit is a collection of utilities that are meant to be used for iOS development.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/IncKit'
+  s.homepage         = 'https://github.com/Incipia/IncKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gklei' => 'gregoryhklein@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/IncKit.git', :tag => s.version.to_s }
+  s.author           = { 'gklei' => 'gregory@incipia.co' }
+  s.source           = { :git => 'https://github.com/Incipia/IncKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'IncKit/Classes/**/*'
+  s.source_files = 'IncKit/**/*'
   
   # s.resource_bundles = {
   #   'IncKit' => ['IncKit/Assets/*.png']
