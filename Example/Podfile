@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IncKit_Example' do
+  pod 'IncKit', :path => '../'
+
+  target 'IncKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
