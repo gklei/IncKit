@@ -22,7 +22,7 @@ pod "IncKit"
 
 ## Author
 
-gklei, gregoryhklein@gmail.com
+gklei, gregory@incipia.co
 
 ## License
 
