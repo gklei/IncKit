@@ -20,7 +20,7 @@
 		CEFB737E1DC1BBC900CC9028 /* UIViewController+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB737D1DC1BBC900CC9028 /* UIViewController+IncKit.swift */; };
 		CEFB73801DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB737F1DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift */; };
 		CEFB73821DC1BC9E00CC9028 /* UIView+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB73811DC1BC9E00CC9028 /* UIView+IncKit.swift */; };
-		CEFB73841DC1C7B900CC9028 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB73831DC1C7B900CC9028 /* UIAlertController+Extensions.swift */; };
+		CEFB73841DC1C7B900CC9028 /* UIAlertController+IncKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB73831DC1C7B900CC9028 /* UIAlertController+IncKit.swift */; };
 		E28866A0D31BBE7B10C560FC16243428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		EABD53A96F7697D15D3B6D1749B28E80 /* IncKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795996D72836C9B68D388FE54798D4AC /* IncKit-dummy.m */; };
 		F044CEDD41F88C5333D4BBB7521A4411 /* IncKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 865C9E08EBDF693CE9315BBDCC892357 /* IncKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,7 +74,7 @@
 		CEFB737D1DC1BBC900CC9028 /* UIViewController+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+IncKit.swift"; path = "Extensions/UIViewController+IncKit.swift"; sourceTree = "<group>"; };
 		CEFB737F1DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+IncKit.swift"; path = "Extensions/UIBarButtonItem+IncKit.swift"; sourceTree = "<group>"; };
 		CEFB73811DC1BC9E00CC9028 /* UIView+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+IncKit.swift"; path = "Extensions/UIView+IncKit.swift"; sourceTree = "<group>"; };
-		CEFB73831DC1C7B900CC9028 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIAlertController+Extensions.swift"; path = "Extensions/UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		CEFB73831DC1C7B900CC9028 /* UIAlertController+IncKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIAlertController+IncKit.swift"; path = "Extensions/UIAlertController+IncKit.swift"; sourceTree = "<group>"; };
 		E15BEFD804158285A7E7D6932028E3A5 /* Pods-IncKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IncKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		EC4134C3BA8EFFCE10F0C70152318F91 /* Pods_IncKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IncKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA38CE34C16C402E5EF5E919FFB65A5A /* Pods-IncKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IncKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				CEFB73731DC1B1F300CC9028 /* String+IncKit.swift */,
-				CEFB73831DC1C7B900CC9028 /* UIAlertController+Extensions.swift */,
+				CEFB73831DC1C7B900CC9028 /* UIAlertController+IncKit.swift */,
 				CEFB737F1DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift */,
 				CEFB73751DC1B2BC00CC9028 /* UIColor+IncKit.swift */,
 				CEFB73771DC1B38500CC9028 /* UIImage+IncKit.swift */,
@@ -393,7 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFB73841DC1C7B900CC9028 /* UIAlertController+Extensions.swift in Sources */,
+				CEFB73841DC1C7B900CC9028 /* UIAlertController+IncKit.swift in Sources */,
 				CEFB73801DC1BC8500CC9028 /* UIBarButtonItem+IncKit.swift in Sources */,
 				CEFB737C1DC1BB2100CC9028 /* UINavigationBar+IncKit.swift in Sources */,
 				CEFB737A1DC1BA8800CC9028 /* UILabel+IncKit.swift in Sources */,
