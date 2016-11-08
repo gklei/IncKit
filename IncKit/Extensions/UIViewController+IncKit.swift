@@ -134,6 +134,10 @@ public extension UIViewController {
 	public func resetNavBarShadow() {
 		navigationController?.resetNavBarShadow()
 	}
+   
+   public func updateNavBarShadow(with color: UIColor) {
+      navigationController?.updateNavBarShadow(with: color)
+   }
 	
 	// MARK: - Child View Controllers
 	func add(childViewController vc: UIViewController, toContainer container: UIView) {

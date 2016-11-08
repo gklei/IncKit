@@ -11,6 +11,13 @@ import IncKit
 
 class ViewController: UIViewController {
    
+   override func viewWillAppear(_ animated: Bool) {
+      super.viewWillAppear(animated)
+      
+      makeNavBarTransparent()
+      updateNavBarShadow(with: .red)
+   }
+   
    override func viewDidAppear(_ animated: Bool) {
       super.viewDidAppear(animated)
       

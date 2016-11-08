@@ -53,8 +53,8 @@ public extension UIImage {
       self.init(cgImage: cgImage)
    }
    
-   public convenience init?(color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) {
-      let rect = CGRect(origin: .zero, size: size)
+   public static func with(color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) -> UIImage? {
+      let rect = CGRect(origin: CGPoint.zero, size: size)
       UIGraphicsBeginImageContextWithOptions(size, false, 0)
       
       color.setFill()
@@ -63,8 +63,7 @@ public extension UIImage {
       let image = UIGraphicsGetImageFromCurrentImageContext()
       UIGraphicsEndImageContext()
       
-      guard let cgImage = image?.cgImage else { return nil }
-      self.init(cgImage: cgImage)
+      return image
    }
 	
 	// MARK: - Effects

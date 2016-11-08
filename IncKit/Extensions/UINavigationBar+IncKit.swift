@@ -27,6 +27,10 @@ public extension UINavigationBar {
 	public func resetShadow() {
 		shadowImage = nil
 	}
+   
+   public func updateShadow(with color: UIColor) {
+      shadowImage = UIImage.with(color: color)
+   }
 }
 
 public extension UIToolbar {
@@ -59,4 +63,8 @@ public extension UINavigationController {
 	public override func resetNavBarShadow() {
 		navigationBar.resetShadow()
 	}
+   
+   public override func updateNavBarShadow(with color: UIColor) {
+      navigationBar.updateShadow(with: color)
+   }
 }
